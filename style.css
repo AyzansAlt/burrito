@@ -1,0 +1,104 @@
+
+
+@media only screen and (max-width: 1200px) {
+ #burrito-logo{
+  display: none;
+ }
+ *{
+     text-align: center !important;
+ }
+ #burrito-text-logo{
+       position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+ }
+}
+
+html{
+    padding: 12px;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+#burrito-logo{
+    float: right;
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media only screen and (min-width: 1201px) {
+ /* Mixin */
+
+ #burrito-text-logo{
+     width: 60%;
+     height: 50%;
+      margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+ }
+
+}
+
+
+
+
+/* Frame 1 */
+#n1_2 {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: rgb(255, 255, 255);
+}
+ 
+ 
+		/* Vector */
+		#n1_19 {
+			left: 72.8646%;
+			right: 15.7292%;
+			top: 37.22%;
+			bottom: 37.31%;
+		}
+ 
+		/* Hey, I’m a guy named Burrito */
+		#n2_2 {
+			align-items: center;
+			color: rgb(0, 0, 0);
+			vertical-align: middle;
+			justify-content: flex-start;
+			line-height: 140px;
+			left: 15.7292%;
+			right: 57.4479%;
+			top: 41.02%;
+			bottom: 37.31%;
+		}
+ 
+			/* Hey, I’m a guy named Burrito Subset */
+			#n2_2-31 {
+				font-family: Poppins;
+				font-size: 48px;
+				font-weight: 300;
+				line-height: 140px;
+				letter-spacing: 0px;
+				align-items: normal;
+			}
+ 
+			/* Hey, I’m a guy named Burrito Subset */
+			#n2_2-32 {
+				font-family: Poppins;
+				font-size: 96px;
+				font-weight: 600;
+				line-height: 120px;
+				letter-spacing: 0px;
+				align-items: normal;
+				color: rgb(142, 255, 0);
+			}

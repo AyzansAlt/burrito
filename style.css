@@ -1,6 +1,6 @@
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 900px) {
  #burrito-logo{
   display: none;
  }
@@ -14,6 +14,25 @@
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
  }
+ 			#n2_2-31 {
+				font-family: Poppins;
+				font-size: 36px;
+				font-weight: 300;
+				line-height: 80px;
+				letter-spacing: 0px;
+				align-items: normal;
+			}
+ 
+			/* Hey, I’m a guy named Burrito Subset */
+			#n2_2-32 {
+				font-family: Poppins;
+				font-size: 72px;
+				font-weight: 600;
+				line-height: 50px;
+				letter-spacing: 0px;
+				align-items: normal;
+				color: rgb(142, 255, 0);
+			}
 }
 
 html{
@@ -36,7 +55,7 @@ html{
   transform: translateY(-50%);
 }
 
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 901px) {
  /* Mixin */
 
  #burrito-text-logo{
@@ -47,7 +66,6 @@ html{
   top: 0; left: 0; bottom: 0; right: 0;
  }
 
-}
 
 
 
@@ -102,3 +120,6 @@ html{
 				align-items: normal;
 				color: rgb(142, 255, 0);
 			}
+
+
+}
